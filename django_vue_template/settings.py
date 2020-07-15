@@ -24,9 +24,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'd7o*ny(s54())1(u(b06=v)n-ohssb9*sp_=*zouh@2ob@(lg4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['django-vue-samer.herokuapp.co', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['django-vue-samer.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
