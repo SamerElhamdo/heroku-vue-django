@@ -10,3 +10,4 @@ urlpatterns = [
   url(r'^$', TemplateView.as_view(template_name='index.html')),
   path('api_example', include('api_example.urls')),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+# add static files
