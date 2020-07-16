@@ -17,4 +17,3 @@ npm run build
 # install Python dependencies
 pip install -r requirements.txt
 ```
-You will want to adjust the SECRET_KEY in the /.env file to something a little more secure
